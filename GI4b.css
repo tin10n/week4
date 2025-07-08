@@ -1,0 +1,19 @@
+.stars{
+    position: absolute;
+    display: flex;
+    width: 575px;
+}
+
+table{
+    height: 795px;
+    width: 100%;
+    display: right;
+}
+
+tr:nth-child(odd){
+    background: #bf0b30;
+}
+
+tr:nth-child(even){
+    background: #ffffff;
+}
